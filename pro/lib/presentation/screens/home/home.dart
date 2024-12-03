@@ -44,11 +44,11 @@ class HomeScreen extends StatelessWidget {
               ),
             ),
           ),
-          Padding(
-            padding: const EdgeInsets.only(
-                left: 150, right: 150, top: 30, bottom: 10),
+          const Padding(
+            padding:
+                EdgeInsets.only(left: 150, right: 150, top: 30, bottom: 10),
             child: Row(
-              children: const [
+              children: [
                 Text(
                   "Tier.",
                   style: TextStyle(
@@ -108,8 +108,8 @@ class HomeScreen extends StatelessWidget {
               const SizedBox(
                 width: 15,
               ),
-              Column(
-                children: const [
+              const Column(
+                children: [
                   TotalTimeShowingWidget(),
                   SizedBox(
                     height: 15,
